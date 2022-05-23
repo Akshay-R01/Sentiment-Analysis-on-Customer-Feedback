@@ -23,7 +23,7 @@ text = myresult[5]
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "sentiment-analysis-350404-2e3172886e42"
 
 # Email Credentials
-yag = yagmail.SMTP('dripppypapi@gmail.com', '#MUKkP7@')
+yag = yagmail.SMTP('dripppypapi@gmail.com', '#')
 
 client = language_v1.LanguageServiceClient()
 
@@ -52,7 +52,7 @@ elif -0.3 < sentiment.score < 0.3:
 
 def email():
     score
-    to = 'akshayr.3918@gmail.com'
+    to = '123@gmail.com'
     subject = 'New Review Posted'
     # body = 'This is obviously the body'
     html = '''
