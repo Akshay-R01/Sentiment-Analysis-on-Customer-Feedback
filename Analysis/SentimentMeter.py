@@ -26,7 +26,7 @@ text = myresult[5]
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:/Users/dhvan/Downloads/sentiment-analysis-350404-2e3172886e42.json"
 
 # Email Credentials
-yag = yagmail.SMTP('dripppypapi@gmail.com', '#MUKkP7@')
+yag = yagmail.SMTP('dripppypapi@gmail.com', '#')
 
 client = language_v1.LanguageServiceClient()
 
