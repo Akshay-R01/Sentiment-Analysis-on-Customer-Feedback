@@ -5,7 +5,7 @@ A program to analyze the sentiment of text in a given review for a product and g
 ## Introduction 
 
 ### Website
-* Made a product website (for lack of a better product, we used Apple Watch), made a showcase page for it. 
+* Made a product website, made a showcase page for it. 
     ![Website](https://user-images.githubusercontent.com/72353918/169774533-d5097277-78bd-4078-8eb7-ab422996ab00.png)
 
 * Made another webpage for the review section of the product where previously written reviews are displayed. An option to give a review is also provided.
@@ -14,14 +14,14 @@ A program to analyze the sentiment of text in a given review for a product and g
 
 
 ### Program for Analysis
-* Developed a [Python program](/Analysis/SentimentAnalysis.py) to import the freshly posted review from the website database. We then use the API provided by Google Cloud's Natural Language AI to clean the text and then analyze it for the sentiment in the text. The API gives output in the form of a sentiment score and the magnitude of emotion present in the text.
+* Developed a [Python program](/Analysis/SentimentAnalysis.py) to import the freshly posted review from the website database. hen used the API provided by Google Cloud's Natural Language AI to clean the text and then analyze it for the sentiment in the text. The API gives output in the form of a sentiment score and the magnitude of emotion present in the text.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/72353918/169775646-31f284ba-d64c-4a03-92ae-03181b13da71.png" />
 </p>
 
 * Then score is classified accordingly to Positve, Negative or Neutral and then a report of the findings is sent in an email to the person who is concerned with the product.
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/72353918/169776433-3e600a53-056d-4e52-9452-f098c3c826d8.png" />
+  <img src="https://user-images.githubusercontent.com/72353918/223529909-3246daf0-abef-42a6-8c2f-9ace407bde67.png" />
 </p>
 
 
